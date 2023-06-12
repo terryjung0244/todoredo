@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
+import CreateTodo from 'service/components/create/CreateTodo';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <CreateTodo />
+    </div>
+  );
 };
 
 export default App;
